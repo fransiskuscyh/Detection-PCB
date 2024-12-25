@@ -1,0 +1,17 @@
+Database name : raspberry
+
+CREATE TABLE `bypass_bypassmode` (
+  `id` bigint NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `description` longtext NOT NULL,
+  `image` longblob NOT NULL,
+  `status` varchar(50) NOT NULL
+)
+
+CREATE TABLE `byreject_byrejectmode` (
+  `id` bigint NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `description` longtext NOT NULL,
+  `image` longblob NOT NULL,
+  `status` varchar(50) NOT NULL
+)
